@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mxv-Sb-QI6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="Z26-6q-4th">
+            <objects>
+                <viewController id="j0g-O5-xlg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dS3-Od-imw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="eld-H7-c5c"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="Settings_00208.png" id="2A6-MA-ou2" customClass="RAMAnimatedTabBarItem" customModule="CustomTabBarController" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="87E-bb-IH5" id="fQE-LW-WMt"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSq-oT-Czd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="87E-bb-IH5" customClass="RAMBounceAnimation" customModule="CustomTabBarController" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-1444" y="-10"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="e3Q-9q-hTs">
+            <objects>
+                <viewController id="UvR-WD-wvT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ToX-fc-gNB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="mLb-d4-0k9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="Settings_00208.png" id="2F7-iI-k0b" customClass="RAMAnimatedTabBarItem" customModule="CustomTabBarController" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="DI0-1D-6qQ" id="Twg-aK-SuQ"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jg7-PK-e0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="DI0-1D-6qQ" customClass="RAMBounceAnimation" customModule="CustomTabBarController" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-1444" y="1507"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="APM-x6-T5u">
+            <objects>
+                <viewController id="gBg-IU-Eqq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B7M-84-ekg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8pi-3Y-J6F"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="Settings_00208.png" id="0oG-70-Dj3" customClass="RAMAnimatedTabBarItem" customModule="CustomTabBarController" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="PgR-3C-FbM" id="jQY-Px-NhA"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZK-Nl-zZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="PgR-3C-FbM" customClass="RAMBounceAnimation" customModule="CustomTabBarController" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-1444" y="786"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="Mv8-E3-3HH">
+            <objects>
+                <viewController id="zGm-7V-hUd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QlC-Ju-R3s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Tsa-lO-LvJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="Settings_00208.png" id="wZW-B7-ezu" customClass="RAMAnimatedTabBarItem" customModule="CustomTabBarController" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="rUk-Tg-Zlq" id="IDu-0j-nYC"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U0K-qt-3l9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="rUk-Tg-Zlq" customClass="RAMBounceAnimation" customModule="CustomTabBarController" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-1444" y="-752"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="std-Kb-RGu">
+            <objects>
+                <tabBarController id="mxv-Sb-QI6" customClass="RAMAnimatedTabBarController" customModule="CustomTabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gkm-ud-Djp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zGm-7V-hUd" kind="relationship" relationship="viewControllers" id="oYm-RV-nEZ"/>
+                        <segue destination="j0g-O5-xlg" kind="relationship" relationship="viewControllers" id="zIs-UX-T3g"/>
+                        <segue destination="gBg-IU-Eqq" kind="relationship" relationship="viewControllers" id="P9X-1k-SwP"/>
+                        <segue destination="UvR-WD-wvT" kind="relationship" relationship="viewControllers" id="fBj-7o-cnX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rzx-G9-vvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2545" y="55"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Settings_00208.png" width="30" height="30"/>
+    </resources>
+</document>
